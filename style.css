@@ -5,7 +5,7 @@ justify-content: center;
 }
 .chessboard{ 
     border: 2px solid black;
-width: 50%; height: 640px;
+width: 80%; height: 640px;
 display: flex;
 flex-wrap: wrap;
 font-size: 60px;
