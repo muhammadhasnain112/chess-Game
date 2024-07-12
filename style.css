@@ -1,0 +1,29 @@
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.chessboard{ 
+    border: 2px solid black;
+width: 50%; height: 640px;
+display: flex;
+flex-wrap: wrap;
+font-size: 60px;
+text-align: center;
+
+ 
+
+
+}
+.chessboard div{
+    width: 10%;
+    height: 80px;
+    
+    width:calc(100%/8);
+}
+.a{background-color:rgba(220, 233, 145, 0.877);
+
+}
+.b{
+    background-color: rgb(35, 129, 35);
+}
